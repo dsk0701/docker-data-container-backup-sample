@@ -1,0 +1,3 @@
+
+0 3 * * 0 root . /container_environment.sh; /data_backup.sh >> /var/log/cron.log 2>&1
+
